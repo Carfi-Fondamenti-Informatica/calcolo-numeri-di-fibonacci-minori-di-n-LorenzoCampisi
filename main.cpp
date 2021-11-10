@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int n=0, primo=1 , secondo=1 , terzo=0;
+    int n, primo=1 , secondo=1 , terzo=0;
 
     cout<<"inserisci numero"<<endl;
     cin>>n;
