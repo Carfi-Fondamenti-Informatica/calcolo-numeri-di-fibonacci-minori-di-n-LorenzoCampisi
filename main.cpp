@@ -12,11 +12,14 @@ int main() {
         cout<<primo<<endl;
         cout<<secondo<<endl;
 
-        for(int i=2;terzo<(n-2);i++){
-            terzo=primo+secondo;
-            primo=secondo;
-            secondo=terzo;
-            cout<<terzo<<endl;
+        for(int i=2;i<n;i++) {
+
+
+            terzo = primo + secondo;
+            primo = secondo;
+            secondo = terzo;
+            if (terzo >= n) break;
+            else cout << terzo << endl;
         }
 
     }
@@ -24,11 +27,6 @@ int main() {
         cout<<"errore"<<endl;
     }
 
-
-
-
     return 0;
-
-
 
 }
