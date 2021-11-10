@@ -18,7 +18,7 @@ int main() {
             terzo = primo + secondo;
             primo = secondo;
             secondo = terzo;
-            if (terzo >= n) break;
+            if (terzo > n) break;
             else cout << terzo << endl;
         }
 
